@@ -1,8 +1,8 @@
 import { useState } from "react";
 import { AiOutLineMinus, AiOutLineplus } from "react-icons/ai";
-const SingleQuestion = () => {
+const SingleQuestion = ({ title, info }) => {
   const [showInfo, setShowInfo] = useState(false);
-  return <h2>SingleQuestion</h2>;
+  return <article className="question"></article>;
 };
 
 export default SingleQuestion;
